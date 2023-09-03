@@ -13,7 +13,7 @@ lint:
 
 ##### BUILD PDF #####
 .PHONY: build/pdf
-build-pdf: ## Build PDF ## make build-pdf
+build/pdf: ## Build PDF ## make build/pdf
 	pnpm build:pdf
 
 ##### HELP #####
