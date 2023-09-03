@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "**/RELEASE"
+      - 'release/RELEASE'
   workflow_dispatch:
 
 jobs:
