@@ -27,11 +27,6 @@ jobs:
         with:
           release_file: "**/RELEASE"
           token: ${{ secrets.GITHUB_TOKEN }}
-  build:
-    name: build pdf and upload release
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2.2.2
         with:
           version: latest
