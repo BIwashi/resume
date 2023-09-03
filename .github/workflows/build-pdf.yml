@@ -22,7 +22,7 @@ jobs:
       - name: Get upload URL
         id: get_upload_url
         run: |
-          UPLOAD_URL=$(gh release view ${{ steps.create_release.outputs.tag }} --json upload_url -q ".upload_url")
+          UPLOAD_URL=$(gh release view --json uploadUrl -q ".uploadUrl")
           echo "::set-output name=upload_url::$UPLOAD_URL"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
