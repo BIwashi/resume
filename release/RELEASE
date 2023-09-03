@@ -1,31 +1,8 @@
-tag: backend-v0.1.14
+tag: v0.0.1
 prerelease: false
 
-commitInclude:
-  hasAnyLabels:
-    - area/backend
-    - area/infrastructure
-    - area/build
-
 commitCategories:
-  - id: breaking-change
-    title: Breaking Changes
-    hasAnyLabels:
-      - cl-category/breaking-change
-  - id: new-feature
-    title: New Features
-    hasAnyLabels:
-      - cl-category/new-feature
-  - id: notable-change
-    title: Notable Changes
-    hasAnyLabels:
-      - cl-category/notable-change
-  - id: bug-fix
-    title: Bug Fixes
-    hasAnyLabels:
-      - cl-category/bug-fix
-  - id: default
-    title: Internal Changes
+  - title: "General Updates"
 
 releaseNoteGenerator:
   showCommitter: false
