@@ -1,4 +1,4 @@
-# { name } resume
+# Shota Iwami resume
 
 ## Sample
 
