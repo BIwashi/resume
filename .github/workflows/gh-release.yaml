@@ -6,6 +6,14 @@ on:
       - main
     paths:
       - "**/RELEASE"
+  # pull_request:
+  #   types:
+  #     - opened
+  #     - synchronize
+  #   branches:
+  #     - main
+  #   paths:
+  #     - "**/RELEASE"
   workflow_dispatch:
 
 jobs:
@@ -19,9 +27,6 @@ jobs:
         with:
           release_file: "**/RELEASE"
           token: ${{ secrets.GITHUB_TOKEN }}
-  build-pdf:
-      needs: [gh-release]
-      uses: BIwashi/resume/.github/workflows/build-pdf.yaml@main
   # build:
   #   needs: [gh-release]
   #   name: build pdf and upload release
