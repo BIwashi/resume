@@ -12,18 +12,9 @@
 [<img src="https://img.shields.io/badge/-biwashi-3EA8FF.svg?logo=zenn&style=popout">](https://zenn.dev/biwashi) [<img src="https://img.shields.io/badge/-B__Sardine-000000.svg?logo=x&style=popout">](https://twitter.com/B_Sardine) <img src="https://img.shields.io/badge/-Shota%20Iwami-0A66C2.svg?logo=Linkedin&style=popout"> <img src="https://img.shields.io/badge/-BIwashi-181717.svg?logo=Github&style=popout">
 ---
 
-## 保有スキル
-### 経験
-
-- Go
-  - 
-- Python
-  - 
-
 ### 資格
 - [Google Cloud Professional Cloud Architect（2023/04）](https://www.credential.net/a7e784e3-fc3e-4b21-bb96-6890d867b6a4)
 - [Datadog Certified: Datadog Fundamentals（2023/07）](https://www.credly.com/badges/9e3a9ae6-46e5-4654-8911-c39b4c157cea/linked_in?t=ry3g0t)
-
 
 
 ---
@@ -63,7 +54,7 @@
 
 ---
 
-## 職務経歴詳細
+## 職務経歴
 
 ### 株式会社サイバーエージェント（2022/04〜現在）
 
@@ -75,4 +66,33 @@
 
 ## 業務外活動
 
-- 
+---
+
+
+## スキル
+### 言語
+
+- Go
+  - 2 年程度
+  - Web サービスのバックエンド
+- Python
+  - 3 年程度
+  - ハッカソンでの Web サービスのバックエンド
+  - ドローン制御ソフトの開発
+- Matlab
+  - 2 年程度
+- C++
+  - 1 年程度
+- Ruby
+  - 1 年程度
+  - Web サービスのバックエンドレス
+  - モバイルゲームのバックエンド
+
+
+### インフラ
+
+### ツール
+
+### ブログ
+
+### OSS等
