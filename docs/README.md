@@ -7,19 +7,18 @@
 |氏名|岩見彰太|
 |生年月日|1997年8月19日|
 |最終学歴|東京都立大学大学院航空宇宙システム工学域|
-|X|https://twitter.com/B_Sardine|
-|Zenn|https://zenn.dev/biwashi|
 |LinkedIn|https://www.linkedin.com/in/shota-iwami-biwashi/|
 
+[<img src="https://img.shields.io/badge/-biwashi-3EA8FF.svg?logo=zenn&style=popout">](https://zenn.dev/biwashi) [<img src="https://img.shields.io/badge/-B__Sardine-000000.svg?logo=x&style=popout">](https://twitter.com/B_Sardine) <img src="https://img.shields.io/badge/-Shota%20Iwami-0A66C2.svg?logo=Linkedin&style=popout"> <img src="https://img.shields.io/badge/-BIwashi-181717.svg?logo=Github&style=popout">
 ---
 
 ## 保有スキル
 ### 経験
 
 - Go
-  - ss
+  - 
 - Python
-  - ｓs
+  - 
 
 ### 資格
 - [Google Cloud Professional Cloud Architect（2023/04）](https://www.credential.net/a7e784e3-fc3e-4b21-bb96-6890d867b6a4)
@@ -66,12 +65,12 @@
 
 ## 職務経歴詳細
 
-### A株式会社（2020/04〜現在）
+### 株式会社サイバーエージェント（2022/04〜現在）
 
-- 
+#### AI事業本部協業リテールメディアディビジョンアプリ運用カンパニー
+
 
 ### B株式会社（2015/04〜2020/03）
-
 - 
 
 ## 業務外活動
