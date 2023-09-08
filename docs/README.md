@@ -105,7 +105,6 @@
 
 - 言語： Ruby（Ruby on Rails）
 - インフラ： AWS
-  - ECS
 
 [記事]
 
