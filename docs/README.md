@@ -27,8 +27,7 @@
 
 **インフラ**
 
-<img src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazon-aws&style=popout">
-<img src="https://img.shields.io/badge/-AWS%20Fargate-FF9900.svg?logo=aws-fargate&style=popout"> <img src="https://img.shields.io/badge/-AWS%20Aurora-3B4AC7.svg?&style=popout">
+<img src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazon-aws&style=popout"> <img src="https://img.shields.io/badge/-AWS%20Fargate-FF9900.svg?logo=aws-fargate&style=popout"> <img src="https://img.shields.io/badge/-AWS%20Aurora-3B4AC7.svg?&style=popout">
 
 <img src="https://img.shields.io/badge/-Google%20Cloud-4285F4.svg?logo=google-cloud&style=popout"> <img src="https://img.shields.io/badge/-Cloud%20Run-4285F4.svg?logo=google-cloud&style=popout"> <img src="https://img.shields.io/badge/-Cloud%20Spanner-4285F4.svg?logo=google-cloud&style=popout">
 
