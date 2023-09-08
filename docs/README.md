@@ -27,16 +27,16 @@
 
 **インフラ**
 
-<img src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazon-aws&style=popout"> <img src="https://img.shields.io/badge/-AWS%20Fargate-FF9900.svg?logo=aws-fargate&style=popout"> <img src="https://img.shields.io/badge/-AWS%20Aurora-3B4AC7.svg?&style=popout">
+<img src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazon-aws&style=popout">
+<img src="https://img.shields.io/badge/-AWS%20Fargate-FF9900.svg?logo=aws-fargate&style=popout"> <img src="https://img.shields.io/badge/-AWS%20Aurora-3B4AC7.svg?&style=popout">
 
 <img src="https://img.shields.io/badge/-Google%20Cloud-4285F4.svg?logo=google-cloud&style=popout"> <img src="https://img.shields.io/badge/-Cloud%20Run-4285F4.svg?logo=google-cloud&style=popout"> <img src="https://img.shields.io/badge/-Cloud%20Spanner-4285F4.svg?logo=google-cloud&style=popout">
-
-<img src="https://img.shields.io/badge/-Datadog-632CA6.svg?logo=Datadog&style=popout">
 
 
 **フレームワーク・その他**
 
 <img src="https://img.shields.io/badge/-gRPC-5CAFB4.svg?logo=&style=popout"> <img src="https://img.shields.io/badge/-grpc--gateway-5CAFB4.svg?logo=&style=popout"> <img src="https://img.shields.io/badge/-Rails-CC0000.svg?logo=rubyonrails&style=popout"> <img src="https://img.shields.io/badge/-Flask-000000.svg?logo=flask&style=popout">
+<img src="https://img.shields.io/badge/-Datadog-632CA6.svg?logo=Datadog&style=popout">
 
 
 ---
