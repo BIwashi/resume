@@ -90,8 +90,8 @@
 - 通信： gRPC, REST（grpc-gateway）
 - CEP: Braze
 
-<br>
 
+[記事]
 - [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 
 
@@ -109,7 +109,8 @@
 - 言語： Ruby（Ruby on Rails）
 - インフラ： AWS
   - ECS
-<br>
+
+[記事]
 
 - [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
 - [【コアウェブバイタル】Google Core Update による CLS の変化と対策 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
@@ -124,8 +125,8 @@
 - 言語： Ruby（Ruby on Rails）
 - インフラ： AWS
 
-<br>
 
+[記事]
 - [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
 
 
