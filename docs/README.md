@@ -109,7 +109,6 @@
 - 言語： Ruby（Ruby on Rails）
 - インフラ： AWS
   - ECS
-  - 
 <br>
 
 - [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
