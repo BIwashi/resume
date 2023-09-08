@@ -22,23 +22,14 @@
 ## 技術スタック
 
 ### 言語
-<img src="https://img.shields.io/badge/-Go-76E1FE.svg?logo=go&style=popout">
-<img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=popout">
-<img src="https://img.shields.io/badge/-Ruby-CC342D.svg?logo=ruby&style=popout">
-<img src="https://img.shields.io/badge/-C++-00599C.svg?logo=cplusplus&style=popout">
+<img src="https://img.shields.io/badge/-Go-76E1FE.svg?logo=go&style=popout"><img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=popout"><img src="https://img.shields.io/badge/-Ruby-CC342D.svg?logo=ruby&style=popout"><img src="https://img.shields.io/badge/-C++-00599C.svg?logo=cplusplus&style=popout">
 
 ### インフラ
-<img src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazon-aws&style=popout">
-
-<img src="https://img.shields.io/badge/-AWS%20Fargate-FF9900.svg?logo=aws-fargate&style=popout">
-
-<img src="https://img.shields.io/badge/-AWS%20Aurora-3B4AC7.svg?&style=popout">
+<img src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazon-aws&style=popout"><img src="https://img.shields.io/badge/-AWS%20Fargate-FF9900.svg?logo=aws-fargate&style=popout"><img src="https://img.shields.io/badge/-AWS%20Aurora-3B4AC7.svg?&style=popout">
 
 <br>
 
-<img src="https://img.shields.io/badge/-Google%20Cloud-4285F4.svg?logo=google-cloud&style=popout">
-<img src="https://img.shields.io/badge/-Cloud%20Run-4285F4.svg?logo=google-cloud&style=popout">
-<img src="https://img.shields.io/badge/-Cloud%20Spanner-4285F4.svg?logo=google-cloud&style=popout">
+<img src="https://img.shields.io/badge/-Google%20Cloud-4285F4.svg?logo=google-cloud&style=popout"><img src="https://img.shields.io/badge/-Cloud%20Run-4285F4.svg?logo=google-cloud&style=popout"><img src="https://img.shields.io/badge/-Cloud%20Spanner-4285F4.svg?logo=google-cloud&style=popout">
 
 <br>
 
@@ -46,10 +37,7 @@
 
 
 ### フレームワーク・その他
-<img src="https://img.shields.io/badge/-gRPC-5CAFB4.svg?logo=&style=popout">
-<img src="https://img.shields.io/badge/-grpc--gateway-5CAFB4.svg?logo=&style=popout">
-<img src="https://img.shields.io/badge/-Rails-CC0000.svg?logo=rubyonrails&style=popout">
-<img src="https://img.shields.io/badge/-Flask-000000.svg?logo=flask&style=popout">
+<img src="https://img.shields.io/badge/-gRPC-5CAFB4.svg?logo=&style=popout"><img src="https://img.shields.io/badge/-grpc--gateway-5CAFB4.svg?logo=&style=popout"><img src="https://img.shields.io/badge/-Rails-CC0000.svg?logo=rubyonrails&style=popout"><img src="https://img.shields.io/badge/-Flask-000000.svg?logo=flask&style=popout">
 
 
 ---
@@ -60,11 +48,88 @@
 
 #### AI事業本部協業リテールメディアディビジョンアプリ運用カンパニー
 
+##### 大手ドラックストア新規アプリ開発（2022/04-）
+新モバイルアプリ・管理画面の構築
 
-### B株式会社（2015/04〜2020/03）
-- 
+- 言語： Go
+- インフラ： AWS
+  - ECS on Fargate
+  - Aurora
+  - Cognito
+  - S3
+- モニタリング： Datadog
+- CICD
+  - Github Actions
+  - PipeCD
+- IaC
+  - Terraform
+- 通信： gRPC（gRPC-Web）
 
-## 業務外活動
+
+##### 某外資アパレル企業の新CRM構築・モバイルアプリ・会員サイト・データ移行プロジェクト（2022/04-2023/03）
+
+複数のブランドとプラットフォームの統合、新 CRM システムの構築とデータ移行を実施
+0->1 の立ち上げ時期から参画し、要件定義/設計/実装/負荷テスト/脆弱性診断/リリース/改修まで一貫して経験
+主に会員関連機能と外部 API 統合担当
+
+- 言語： Go
+- インフラ： GCP
+  - Cloud Run
+  - Cloud Spanner
+  - Cloud CDN
+  - Cloud Pub/Sub
+  - Cloud Functions
+  - Cloud Storage
+  - Firebase Authentication
+- モニタリング： Datadog
+- DWH: Snowflake
+- CICD
+  - Github Actions
+  - PipeCD
+- IaC: Terraform
+- 通信： gRPC, REST（grpc-gateway）
+- CEP: Braze
+
+<br>
+
+- [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
+
+
+### 株式会社スペースエンターテインメントラボラトリー（2019/01-2022/03）
+飛行艇型ドローンの開発
+成層圏高高度気球のよるプロモーション撮影
+その他、ドローンを用いた事業複数
+
+
+
+### グリー株式会社（アウモ株式会社）（2021/01-2021/09）
+おでかけメディア「aumo」の開発
+主にバックエンドの基本的な実装からフロントエンドのパフォーマンスチューニングを実施
+
+- 言語： Ruby（Ruby on Rails）
+- インフラ： AWS
+  - ECS
+  - 
+<br>
+
+- [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
+- [【コアウェブバイタル】Google Core Update による CLS の変化と対策 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
+- [【コアウェブバイタル】CriticalCSS の導入による FCP の改善 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/633)
+- [8ヶ月間のアウモエンジニア長期インターンを卒業します | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
+
+
+### 株式会社アカツキゲームス（2021/01）
+2 週間のインターン参加
+タイトル「八月のシンデレラナイン」のバックエンド開発を担当
+
+- 言語： Ruby（Ruby on Rails）
+- インフラ： AWS
+
+<br>
+
+- [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
+
+
 
 ---
 
@@ -79,14 +144,16 @@
   - 3 年程度
   - ハッカソンでの Web サービスのバックエンド
   - ドローン制御ソフトの開発
-- Matlab
-  - 2 年程度
-- C++
-  - 1 年程度
 - Ruby
   - 1 年程度
-  - Web サービスのバックエンドレス
+  - Web サービスのバックエンド
   - モバイルゲームのバックエンド
+- Matlab
+  - 2 年程度
+  - 研究で使用
+- C++
+  - 1 年程度
+  - 研究、長期インターンで使用
 
 
 ### インフラ
