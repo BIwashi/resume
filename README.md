@@ -69,6 +69,7 @@
 
 
 #### 参考
+
 - [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 
 
@@ -157,6 +158,7 @@
 # ブログ
 
 2021 年
+
 - [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
 - [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
 - [【コアウェブバイタル】Google Core Update による CLS の変化と対策 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
@@ -164,9 +166,11 @@
 - [8ヶ月間のアウモエンジニア長期インターンを卒業します | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
 
 2022 年
+
 - [【Go】ジェネリクスと双方向マップを使った enum の実装](https://zenn.dev/biwashi/articles/6f627732446885)
 
 2023 年
+
 - [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 - [Datadog 認定資格（Datadog Fundamentals）を取ってみた](https://zenn.dev/biwashi/articles/b51782bc9da259)
 
