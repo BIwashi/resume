@@ -93,7 +93,6 @@
 - 言語： Ruby（Ruby on Rails）
 - インフラ： AWS
 
-
 #### 参考
 - [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
 
