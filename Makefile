@@ -7,13 +7,18 @@ setup: ## Setup project ## make setup
 	pnpm install
 
 ##### LINT #####
-.PHONY: lint
-lint:
+.PHONY: lint/check
+lint/check:
+	pnpm lint
+
+.PHONY: lint/fix
+lint/fix:
 	pnpm lint --fix
 
 ##### BUILD PDF #####
 .PHONY: build/pdf
 build/pdf: ## Build PDF ## make build/pdf
+	cp README.md docs/README.md
 	pnpm build:pdf
 
 ##### HELP #####

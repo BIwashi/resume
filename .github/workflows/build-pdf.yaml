@@ -17,6 +17,8 @@ jobs:
         with:
           version: latest
       - run: pnpm install --frozen-lockfile
+      - name: copy readme file from root to docs
+        run: cp README.md docs/README.md
       - name: build pdf
         run: pnpm run build:pdf
       - name: Get upload URL
