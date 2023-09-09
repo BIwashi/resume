@@ -143,10 +143,10 @@
 
 ## インフラ
 - AWS
-  - 2年程度
-  - ECS on Fargate, Aurora等を使用した基本的な構成のシステム構築経験
+  - 2 年程度
+  - ECS on Fargate, Aurora 等を使用した基本的な構成のシステム構築経験
 - GCP
-  - 1年程度
+  - 1 年程度
   - Clour Run, Cloud Spanner を使用したシステムの構築・運用経験
 
 ## ツール
@@ -156,9 +156,9 @@
   - ECS on Fargate への Sidecar での Agent 構築経験
   - APM, Continuous Profiler, Logs, Monitors の構築
 - Terraform
-  - 2年程度
-  - AWS, GCPでの基本的な実装
-  - CloudCDNを用いた署名付きURLの実装
+  - 2 年程度
+  - AWS, GCP での基本的な実装
+  - CloudCDN を用いた署名付き URL の実装
 - Raspberry pi
   - 3 年
   - 大学・大学院での研究に使用
@@ -166,22 +166,22 @@
 
 # ブログ
 
-2021年
+2021 年
 - [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
 - [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
 - [【コアウェブバイタル】Google Core Update による CLS の変化と対策 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
 - [【コアウェブバイタル】CriticalCSS の導入による FCP の改善 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/633)
 - [8ヶ月間のアウモエンジニア長期インターンを卒業します | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
 
-2022年
+2022 年
 - [【Go】ジェネリクスと双方向マップを使った enum の実装](https://zenn.dev/biwashi/articles/6f627732446885)
 
-2023年
+2023 年
 - [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 - [Datadog 認定資格（Datadog Fundamentals）を取ってみた](https://zenn.dev/biwashi/articles/b51782bc9da259)
 
 # OSS等
 - [Add Cloud Spanner support without `xo/dburl` by BIwashi · Pull Request #482 · k1LoW/runn](https://github.com/k1LoW/runn/pull/482)
-  - Go製のシナリオテストツールに runn を対応
+  - Go 製のシナリオテストツールに runn を対応
 - [fix spanner dsn by BIwashi · Pull Request #26 · xo/dburl](https://github.com/xo/dburl/pull/26)
-  - Go製のDB DSN生成ツールの Spanner に誤りがあったため修正
+  - Go 製の DB DSN 生成ツールの Spanner に誤りがあったため修正
