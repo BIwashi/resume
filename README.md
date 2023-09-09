@@ -10,15 +10,11 @@
 |LinkedIn|https://www.linkedin.com/in/shota-iwami-biwashi/|
 
 [<img src="https://img.shields.io/badge/-biwashi-3EA8FF.svg?logo=zenn&style=popout">](https://zenn.dev/biwashi) [<img src="https://img.shields.io/badge/-B__Sardine-000000.svg?logo=x&style=popout">](https://twitter.com/B_Sardine) [<img src="https://img.shields.io/badge/-Shota%20Iwami-0077B5.svg?logo=linkedin&style=popout">](https://www.linkedin.com/in/shota-iwami-biwashi/) [<img src="https://img.shields.io/badge/-BIwashi-181717.svg?logo=Github&style=popout">](https://github.com/BIwashi)
----
-
 
 ### 資格
 - [Google Cloud Professional Cloud Architect（2023/04）](https://www.credential.net/a7e784e3-fc3e-4b21-bb96-6890d867b6a4)
 - [Datadog Certified: Datadog Fundamentals（2023/07）](https://www.credly.com/badges/9e3a9ae6-46e5-4654-8911-c39b4c157cea/linked_in?t=ry3g0t)
 
-
----
 
 # 技術スタック
 
@@ -39,7 +35,6 @@
 <img src="https://img.shields.io/badge/-Datadog-632CA6.svg?logo=Datadog&style=popout">
 
 
----
 
 # 職務経歴
 
@@ -116,9 +111,6 @@
 #### 参考
 - [スペースエンターテインメントラボラトリー](https://www.selab.jp/)
 - [株式会社スペースエンターテインメントラボラトリー：福島イノベーション・コースト構想](https://www.fipo.or.jp/type_activity/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%86%E3%82%A4%E3%83%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%83%A9%E3%83%9C%E3%83%A9%E3%83%88)
-
----
-
 
 # スキル
 ## 言語
