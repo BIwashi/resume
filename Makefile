@@ -9,6 +9,10 @@ setup: ## Setup project ## make setup
 ##### LINT #####
 .PHONY: lint
 lint:
+	pnpm lint
+
+.PHONY: lint/fix
+lint:
 	pnpm lint --fix
 
 ##### BUILD PDF #####
