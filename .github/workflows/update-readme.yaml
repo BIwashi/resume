@@ -1,0 +1,28 @@
+name: Update docs README
+
+on:
+  push:
+    paths:
+      - 'README.md'
+
+jobs:
+  copy-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Copy README.md to /docs
+        run: cp README.md docs/README.md
+
+      - name: Set up Git user
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commit and push
+        run: |
+          git add docs/README.md
+          git commit -m "Update docs README.md" || exit 0
+          git push
