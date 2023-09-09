@@ -69,7 +69,8 @@
 
 
 #### 参考
-- [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
+
+- [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う / CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 
 
 ## グリー株式会社（アウモ株式会社）（2021/01-2021/09）
@@ -80,10 +81,10 @@
 - インフラ： AWS
 
 #### 記事
-- [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
-- [【コアウェブバイタル】Google Core Update による CLS の変化と対策 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
-- [【コアウェブバイタル】CriticalCSS の導入による FCP の改善 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/633)
-- [8ヶ月間のアウモエンジニア長期インターンを卒業します | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
+- [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
+- [【コアウェブバイタル】Google Core Update による CLS の変化と対策 / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
+- [【コアウェブバイタル】CriticalCSS の導入による FCP の改善 / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/633)
+- [8ヶ月間のアウモエンジニア長期インターンを卒業します / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
 
 
 ## 株式会社アカツキゲームス（2021/01）
@@ -94,7 +95,7 @@
 - インフラ： AWS
 
 #### 参考
-- [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
+- [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab / 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
 
 ## 株式会社スペースエンターテインメントラボラトリー（2019/01-2022/03）
 飛行艇型ドローンの開発
@@ -107,6 +108,7 @@
   - CAD: SOLIDWORKS
 
 #### 参考
+
 - [スペースエンターテインメントラボラトリー](https://www.selab.jp/)
 - [株式会社スペースエンターテインメントラボラトリー：福島イノベーション・コースト構想](https://www.fipo.or.jp/type_activity/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%B9%E3%83%9A%E3%83%BC%E3%82%B9%E3%82%A8%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%86%E3%82%A4%E3%83%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%83%A9%E3%83%9C%E3%83%A9%E3%83%88)
 
@@ -157,17 +159,20 @@
 # ブログ
 
 2021 年
-- [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab | 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
-- [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
-- [【コアウェブバイタル】Google Core Update による CLS の変化と対策 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
-- [【コアウェブバイタル】CriticalCSS の導入による FCP の改善 | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/633)
-- [8ヶ月間のアウモエンジニア長期インターンを卒業します | aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
+
+- [アカツキで「ハチナイ」のサーバーサイドインターンに参加してきた。 - Akatsuki Hackers Lab / 株式会社アカツキ（Akatsuki Inc.)](https://hackerslab.aktsk.jp/2021/05/06/174224)
+- [【コアウェブバイタル】Page Speed Insights API を利用したパフォーマンス計測基盤の自作 / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/271)
+- [【コアウェブバイタル】Google Core Update による CLS の変化と対策 / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/532)
+- [【コアウェブバイタル】CriticalCSS の導入による FCP の改善 / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/633)
+- [8ヶ月間のアウモエンジニア長期インターンを卒業します / aumo Tech Blog – アウモテックブログ](https://techblog.aumo.co.jp/articles/842)
 
 2022 年
+
 - [【Go】ジェネリクスと双方向マップを使った enum の実装](https://zenn.dev/biwashi/articles/6f627732446885)
 
 2023 年
-- [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
+
+- [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う / CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 - [Datadog 認定資格（Datadog Fundamentals）を取ってみた](https://zenn.dev/biwashi/articles/b51782bc9da259)
 
 # OSS等

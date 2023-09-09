@@ -6,6 +6,11 @@
 setup: ## Setup project ## make setup
 	pnpm install
 
+##### CP README #####
+.PHONY: cp/readme
+cp/readme: ## Copy README.md to docs/README.md ## make cp/readme
+	cp README.md docs/README.md
+
 ##### LINT #####
 .PHONY: lint/check
 lint/check:
