@@ -14,6 +14,7 @@ lint:
 ##### BUILD PDF #####
 .PHONY: build/pdf
 build/pdf: ## Build PDF ## make build/pdf
+	cp README.md docs/README.md
 	pnpm build:pdf
 
 ##### HELP #####
