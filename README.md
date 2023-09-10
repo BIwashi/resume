@@ -7,7 +7,6 @@
 |氏名|岩見彰太|
 |最終学歴|東京都立大学大学院航空宇宙システム工学域|
 |email|shota.iwami@outlook.jp|
-|LinkedIn|https://www.linkedin.com/in/shota-iwami-biwashi/|
 
 [<img src="https://img.shields.io/badge/-biwashi-3EA8FF.svg?logo=zenn&style=popout">](https://zenn.dev/biwashi) [<img src="https://img.shields.io/badge/-B__Sardine-000000.svg?logo=x&style=popout">](https://twitter.com/B_Sardine) [<img src="https://img.shields.io/badge/-Shota%20Iwami-0077B5.svg?logo=linkedin&style=popout">](https://www.linkedin.com/in/shota-iwami-biwashi/) [<img src="https://img.shields.io/badge/-BIwashi-181717.svg?logo=Github&style=popout">](https://github.com/BIwashi)
 
