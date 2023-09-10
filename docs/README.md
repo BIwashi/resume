@@ -6,8 +6,7 @@
 |---|---|
 |氏名|岩見彰太|
 |最終学歴|東京都立大学大学院航空宇宙システム工学域|
-|email|shota.iwami@outlook.jp|
-|LinkedIn|https://www.linkedin.com/in/shota-iwami-biwashi/|
+|Wmail|shota.iwami@outlook.jp|
 
 [<img src="https://img.shields.io/badge/-biwashi-3EA8FF.svg?logo=zenn&style=popout">](https://zenn.dev/biwashi) [<img src="https://img.shields.io/badge/-B__Sardine-000000.svg?logo=x&style=popout">](https://twitter.com/B_Sardine) [<img src="https://img.shields.io/badge/-Shota%20Iwami-0077B5.svg?logo=linkedin&style=popout">](https://www.linkedin.com/in/shota-iwami-biwashi/) [<img src="https://img.shields.io/badge/-BIwashi-181717.svg?logo=Github&style=popout">](https://github.com/BIwashi)
 
@@ -38,11 +37,11 @@
 
 # 職務経歴
 
-## 株式会社サイバーエージェント（2022/04〜現在）
+## 株式会社サイバーエージェント（2022/04-現在）
 
-### 大手ドラックストア新規アプリ開発（2022/04-）/ AI事業本部
+### 某大手ドラックストア新規アプリ開発（2022/04-）/ AI事業本部
 新モバイルアプリ・管理画面の構築
-バックエンドのアプリケーション構築、Datadog によるモニタリグ基盤の構築を担当
+バックエンドのアプリケーション構築、Datadog によるモニタリグ基盤の構築
 
 - 言語： Go
 - インフラ： AWS(ECS on Fargate/Aurora)
@@ -54,8 +53,10 @@
 
 ### 某外資アパレル企業の新CRM構築・モバイルアプリ・会員サイト・データ移行プロジェクト（2022/04-2023/03）/ AI事業本部
 
-複数のブランドとプラットフォームの統合、新 CRM システムの構築とデータ移行を実施
+複数のブランドとプラットフォームの統合、新 CRM  システムの構築とデータ移行を実施
+
 0 -> 1 の立ち上げ時期から参画し、要件定義/設計/実装/負荷テスト/脆弱性診断/リリース/改修まで一貫して経験
+
 主に会員関連機能と外部 API 統合担当
 
 - 言語： Go
@@ -126,7 +127,7 @@
   - 1 年程度
   - Web サービスのバックエンド
   - モバイルゲームのバックエンド
-- Matlab
+- MATLAB
   - 2 年程度
   - 研究で使用
 - C++
