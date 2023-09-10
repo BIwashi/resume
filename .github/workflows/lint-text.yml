@@ -1,7 +1,9 @@
 name: lint text
 
-on: 
+on:
   push:
+  repository_dispatch:
+    types: [lint-text]
   pull_request:
     types: [opened, synchronize, reopened]
 

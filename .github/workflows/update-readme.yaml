@@ -3,7 +3,7 @@ name: Update docs README
 on:
   push:
     paths:
-      - 'README.md'
+      - "README.md"
 
 jobs:
   copy-readme:
@@ -26,3 +26,9 @@ jobs:
           git add docs/README.md
           git commit -m "Update docs README.md" || exit 0
           git push
+      - name: Trigger lint text workflow
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: ${{ github.repository }}
+          event-type: lint-text
