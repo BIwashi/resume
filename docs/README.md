@@ -166,6 +166,15 @@
   - 大学・大学院での研究に使用
   - ドローンの改造に使用
 
+# 登壇
+
+2023 年
+
+- Go Conference mini 2023 in KYOTO
+  - [Go Conference mini 2023 Winter IN KYOTO - connpass](https://kyotogo.connpass.com/event/285351/)
+  - [GoのProtocプラグインを活用した効率的な負荷試験戦略 / Efficient Load Testing Strategies Utilizing the Go Protoc Plugin - Speaker Deck](https://speakerdeck.com/biwashi/efficient-load-testing-strategies-utilizing-the-go-protoc-plugin)
+
+
 # ブログ
 
 2021 年
