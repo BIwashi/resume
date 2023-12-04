@@ -168,7 +168,7 @@
 
 # 登壇
 
-2023年
+2023 年
 
 - Go Conference mini 2023 in KYOTO
   - [Go Conference mini 2023 Winter IN KYOTO - connpass](https://kyotogo.connpass.com/event/285351/)
