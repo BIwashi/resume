@@ -170,8 +170,7 @@
 
 2023 年
 
-- Go Conference mini 2023 in KYOTO
-  - [Go Conference mini 2023 Winter IN KYOTO - connpass](https://kyotogo.connpass.com/event/285351/)
+- [Go Conference mini 2023 Winter IN KYOTO](https://kyotogo.connpass.com/event/285351/)
   - [GoのProtocプラグインを活用した効率的な負荷試験戦略 / Efficient Load Testing Strategies Utilizing the Go Protoc Plugin - Speaker Deck](https://speakerdeck.com/biwashi/efficient-load-testing-strategies-utilizing-the-go-protoc-plugin)
 
 
@@ -199,3 +198,5 @@
   - Go 製のシナリオテストツールに runn を対応
 - [fix spanner dsn by BIwashi · Pull Request #26 · xo/dburl](https://github.com/xo/dburl/pull/26)
   - Go 製の DB DSN 生成ツールの Spanner に誤りがあったため修正
+- [contrib/google.golang.org/grpc: add `WithErrorCheck` option by BIwashi · Pull Request #2035 · DataDog/dd-trace-go](https://github.com/DataDog/dd-trace-go/pull/2035)
+  - datadog trace の gRPC 用の SDK で gRPC status code と メソッド名の組み合わせで error 判定を変更したかったため `WithErrorCheck` というメソッドを追加
