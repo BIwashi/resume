@@ -126,8 +126,10 @@
 ## 言語
 
 - Go
-  - 2 年程度
+  - 3 年程度
   - Web サービスのバックエンド
+  - CLI ツールの作成
+  - 自動生成ツールの作成
 - Python
   - 3 年程度
   - ハッカソンでの Web サービスのバックエンド
@@ -145,7 +147,7 @@
 
 ## インフラ
 - AWS
-  - 2 年程度
+  - 3 年程度
   - ECS on Fargate, Aurora 等を使用した基本的な構成のシステム構築経験
 - GCP
   - 1 年程度
@@ -154,13 +156,13 @@
 ## ツール
 
 - Datadog
-  - 1 年程度
+  - 2 年程度
   - ECS on Fargate への Sidecar での Agent 構築経験
   - APM, Continuous Profiler, Logs, Monitors の構築
+  - Mobile App Testing を用いたモバイル端末の自動テスト
 - Terraform
-  - 2 年程度
-  - AWS, GCP での基本的な実装
-  - CloudCDN を用いた署名付き URL の実装
+  - 3 年程度
+  - AWS, GCP での使用
 - Raspberry pi
   - 3 年
   - 大学・大学院での研究に使用
