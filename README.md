@@ -172,7 +172,9 @@
 
 - [Go Conference mini 2023 Winter IN KYOTO](https://kyotogo.connpass.com/event/285351/)
   - [GoのProtocプラグインを活用した効率的な負荷試験戦略 / Efficient Load Testing Strategies Utilizing the Go Protoc Plugin - Speaker Deck](https://speakerdeck.com/biwashi/efficient-load-testing-strategies-utilizing-the-go-protoc-plugin)
-
+- [devopsdays Tokyo 2024](https://devopsdays.org/events/2024-tokyo/welcome/)
+  - [DevOpsDays Tokyo 2024 - Program Schedule | ConfEngine - Conference Platform](https://confengine.com/conferences/devopsdays-tokyo-2024/schedule/rich)
+  - [自動生成を活用した、運用保守コストを抑える Error/Alert/Runbook の一元集約管理 / Centralized management of Error/Alert/Runbook to minimize operational costs using automated code generation - Speaker Deck](https://speakerdeck.com/biwashi/runbook-to-minimize-operational-costs-using-automated-code-generation)
 
 # ブログ
 
