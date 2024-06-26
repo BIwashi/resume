@@ -43,14 +43,27 @@
 
 新モバイルアプリ・管理画面の構築
 
-バックエンドのアプリケーション構築、Datadog によるモニタリグ基盤の構築
+バックエンドのアプリケーション構築から Datadog によるモニタリング・オブザーバビリティ基盤の構築、大規模な負荷試験の実施
 
 - 言語： Go
 - インフラ： AWS(ECS on Fargate/Aurora)
 - モニタリング： Datadog
 - CICD: Github Actions/PipeCD
 - IaC:Terraform
-- 通信： gRPC（gRPC-Web）
+- 通信： gRPC（gRPC-Web / connect）
+
+#### 登壇
+- [Go Conference mini 2023 Winter IN KYOTO](https://kyotogo.connpass.com/event/285351/)
+  - [GoのProtocプラグインを活用した効率的な負荷試験戦略 - Speaker Deck](https://speakerdeck.com/biwashi/efficient-load-testing-strategies-utilizing-the-go-protoc-plugin)
+- [DevOpsDays Tokyo 2024](https://www.devopsdaystokyo.org/)
+  - [DevOpsDays Tokyo 2024 - 自動生成を活用した、運用保守コストを抑える Error/Alert/Runbook の一元集約管理 | ConfEngine - Conference Platform](https://confengine.com/conferences/devopsdays-tokyo-2024/proposal/19703/erroralertrunbook-centralized-management-of-erroralertrunbook-to-minimize-operational-costs-using-automated-code-generation)
+  - [自動生成を活用した、運用保守コストを抑える Error/Alert/Runbook の一元集約管理 - Speaker Deck](https://speakerdeck.com/biwashi/runbook-to-minimize-operational-costs-using-automated-code-generation)
+- [Go Conference 2024](https://gocon.jp/2024/)
+  - [Sessions | Go Conference 2024 | Unified Diff 形式の差分から Go AST を構築して feature flag を自動計装する](https://gocon.jp/2024/sessions/11/)
+  - [Unified Diff 形式の差分から Go AST を構築して feature flag を自動計装する - Speaker Deck](https://speakerdeck.com/biwashi/go-conference-2024-automating-feature-flag-instrumentation-by-constructing-go-ast-from-unified-diff-format)
+- [CloudNative Days Summer 2024](https://event.cloudnativedays.jp/cnds2024)
+  - [OpenFeature と自動生成を活用した、フィーチャーフラグの宣言的集約管理 | CloudNative Days Summer 2024](https://event.cloudnativedays.jp/cnds2024/talks/2274)
+  - [OpenFeatureと自動生成を活用したフィーチャーフラグの宣言的集約管理 - Speaker Deck](https://speakerdeck.com/biwashi/cloudnative-days-summer-2024-declarative-aggregated-management-of-feature-flags-using-openfeature-and-auto-generation)
 
 
 ### 某外資アパレル企業の新CRM構築・モバイルアプリ・会員サイト・データ移行プロジェクト（2022/04-2023/03）/ AI事業本部
@@ -170,13 +183,21 @@
 
 # 登壇
 
-2023 年
+### 2024 年
+- [DevOpsDays Tokyo 2024](https://devopsdays.org/events/2024-tokyo/welcome/)
+  - [DevOpsDays Tokyo 2024 - Program Schedule | ConfEngine - Conference Platform](https://confengine.com/conferences/devopsdays-tokyo-2024/schedule/rich)
+  - [自動生成を活用した、運用保守コストを抑える Error/Alert/Runbook の一元集約管理 / Centralized management of Error/Alert/Runbook to minimize operational costs using automated code generation - Speaker Deck](https://speakerdeck.com/biwashi/runbook-to-minimize-operational-costs-using-automated-code-generation)
+- [Go Conference 2024](https://gocon.jp/2024/)
+  - [Sessions | Go Conference 2024 | Unified Diff 形式の差分から Go AST を構築して feature flag を自動計装する](https://gocon.jp/2024/sessions/11/)
+  - [Unified Diff 形式の差分から Go AST を構築して feature flag を自動計装する - Speaker Deck](https://speakerdeck.com/biwashi/go-conference-2024-automating-feature-flag-instrumentation-by-constructing-go-ast-from-unified-diff-format)
+- [CloudNative Days Summer 2024](https://event.cloudnativedays.jp/cnds2024)
+  - [OpenFeature と自動生成を活用した、フィーチャーフラグの宣言的集約管理 | CloudNative Days Summer 2024](https://event.cloudnativedays.jp/cnds2024/talks/2274)
+  - [OpenFeatureと自動生成を活用したフィーチャーフラグの宣言的集約管理 - Speaker Deck](https://speakerdeck.com/biwashi/cloudnative-days-summer-2024-declarative-aggregated-management-of-feature-flags-using-openfeature-and-auto-generation)
+
+### 2023 年
 
 - [Go Conference mini 2023 Winter IN KYOTO](https://kyotogo.connpass.com/event/285351/)
   - [GoのProtocプラグインを活用した効率的な負荷試験戦略 / Efficient Load Testing Strategies Utilizing the Go Protoc Plugin - Speaker Deck](https://speakerdeck.com/biwashi/efficient-load-testing-strategies-utilizing-the-go-protoc-plugin)
-- [devopsdays Tokyo 2024](https://devopsdays.org/events/2024-tokyo/welcome/)
-  - [DevOpsDays Tokyo 2024 - Program Schedule | ConfEngine - Conference Platform](https://confengine.com/conferences/devopsdays-tokyo-2024/schedule/rich)
-  - [自動生成を活用した、運用保守コストを抑える Error/Alert/Runbook の一元集約管理 / Centralized management of Error/Alert/Runbook to minimize operational costs using automated code generation - Speaker Deck](https://speakerdeck.com/biwashi/runbook-to-minimize-operational-costs-using-automated-code-generation)
 
 # ブログ
 
