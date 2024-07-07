@@ -218,10 +218,3 @@
 - [外部API連携とシナリオテスト基盤構築で新卒1年目がDXに向き合う / CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/42003/)
 - [Datadog 認定資格（Datadog Fundamentals）を取ってみた](https://zenn.dev/biwashi/articles/b51782bc9da259)
 
-# OSS等
-- [Add Cloud Spanner support without `xo/dburl` by BIwashi · Pull Request #482 · k1LoW/runn](https://github.com/k1LoW/runn/pull/482)
-  - Go 製のシナリオテストツールに runn を対応
-- [fix spanner dsn by BIwashi · Pull Request #26 · xo/dburl](https://github.com/xo/dburl/pull/26)
-  - Go 製の DB DSN 生成ツールの Spanner に誤りがあったため修正
-- [contrib/google.golang.org/grpc: add `WithErrorCheck` option by BIwashi · Pull Request #2035 · DataDog/dd-trace-go](https://github.com/DataDog/dd-trace-go/pull/2035)
-  - datadog trace の gRPC 用の SDK で gRPC status code と メソッド名の組み合わせで error 判定を変更したかったため `WithErrorCheck` というメソッドを追加
