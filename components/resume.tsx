@@ -146,6 +146,14 @@ export function Resume() {
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Public Speaking</h2>
               <ul className="space-y-4">
                 <li>
+                  <h3 className="font-semibold">Top 4 Load Testing Tools! User Insights into Effective Performance Testing Practices (September 2024)</h3>
+                  <p>Topic: &quot;Building a Scalable and Reproducible Load Testing Platform with k6&quot;</p>
+                </li>
+                <li>
+                  <h3 className="font-semibold">Learn from Real-World Use Cases! The Unknown World of Datadog (August 2024)</h3>
+                  <p>Topic: &quot;Advanced techniques for leveraging Datadog&apos;s features&quot;</p>
+                </li>
+                <li>
                   <h3 className="font-semibold">OpenTelemetry Meetup #3 (June 2024)</h3>
                   <p>Topic: &quot;Feature Flags and OpenTelemetry&quot;</p>
                 </li>
