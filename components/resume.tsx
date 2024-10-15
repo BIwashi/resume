@@ -87,7 +87,7 @@ export function Resume() {
                 </div>
                 <div className="mt-4">
                   <h4 className="font-semibold">CRM system construction/mobile app/website/data migration for a foreign apparel company (April 2022 - March 2023)</h4>
-                  <p>Conducted integration of multiple brands and platforms, constructed a new CRM system, and migrated data. Participated from the initial stage of 0->1, involved in requirements definition/design/implementation/load testing/release/operation. Mainly responsible for member-related functions and integration with external services.</p>
+                  <p>Conducted integration of multiple brands and platforms, constructed a new CRM system, and migrated data. Participated from the initial stage of 0{'>'}1, involved in requirements definition/design/implementation/load testing/release/operation. Mainly responsible for member-related functions and integration with external services.</p>
                   <h5 className="font-semibold mt-2">Technology Stack:</h5>
                   <ul className="list-disc list-inside ml-4">
                     <li>Language: Go</li>
@@ -106,7 +106,7 @@ export function Resume() {
                 <h3 className="text-xl font-semibold">GREE, Inc. - Full Stack Engineer (Internship)</h3>
                 <p className="text-gray-600">January 2021 - September 2021</p>
                 <p>Aumo Inc.</p>
-                <p className="mt-2">Development of "aumo," a media platform. Involved in basic implementation of the backend and performance tuning of the frontend.</p>
+                <p className="mt-2">Development of &quot;aumo,&quot; a media platform. Involved in basic implementation of the backend and performance tuning of the frontend.</p>
                 <h5 className="font-semibold mt-2">Technology Stack:</h5>
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: Ruby（Ruby on Rails）</li>
@@ -133,7 +133,7 @@ export function Resume() {
                 <h3 className="text-xl font-semibold">Tokyo Metropolitan University Graduate School</h3>
                 <p className="text-gray-600">2020 - 2022</p>
                 <p>Master of Engineering, Aerospace Engineering</p>
-                <p className="mt-2">Thesis: "Flight Experiment of Four-dimensional Navigation for Drones Assuming Unmanned Aircraft Traffic Management"</p>
+                <p className="mt-2">Thesis: &quot;Flight Experiment of Four-dimensional Navigation for Drones Assuming Unmanned Aircraft Traffic Management&quot;</p>
               </div>
               <div className="mb-4">
                 <h3 className="text-xl font-semibold">Tokyo Metropolitan University</h3>
@@ -147,31 +147,31 @@ export function Resume() {
               <ul className="space-y-4">
                 <li>
                   <h3 className="font-semibold">OpenTelemetry Meetup #3 (June 2024)</h3>
-                  <p>Topic: "Feature Flags and OpenTelemetry"</p>
+                  <p>Topic: &quot;Feature Flags and OpenTelemetry&quot;</p>
                 </li>
                 <li>
                   <h3 className="font-semibold">CloudNative Days SUMMER 2024 (June 2023)</h3>
-                  <p>Topic: "Declarative Aggregation Management of Feature Flags Using OpenFeature and Code Generation"</p>
+                  <p>Topic: &quot;Declarative Aggregation Management of Feature Flags Using OpenFeature and Code Generation&quot;</p>
                 </li>
                 <li>
                   <h3 className="font-semibold">Go Conference 2024 (June 2023)</h3>
-                  <p>Topic: "Building Go AST from Unified Diff Format Differences for Automatic Feature Flag Instrumentation"</p>
+                  <p>Topic: &quot;Building Go AST from Unified Diff Format Differences for Automatic Feature Flag Instrumentation&quot;</p>
                 </li>
                 <li>
                   <h3 className="font-semibold">DevOpsDays TOKYO 2024 (June 2023)</h3>
-                  <p>Topic: "Unified Management of Errors, Alerts, and Runbooks Using Code Generation to Reduce Operational Costs"</p>
+                  <p>Topic: &quot;Unified Management of Errors, Alerts, and Runbooks Using Code Generation to Reduce Operational Costs&quot;</p>
                 </li>
                 <li>
                   <h3 className="font-semibold">Go Conference mini 2023 Winter IN KYOTO (December 2023)</h3>
-                  <p>Topic: "Efficient Load Testing Strategies Using Go's Protoc Plugin"</p>
+                  <p>Topic: &quot;Efficient Load Testing Strategies Using Go&apos;s Protoc Plugin&quot;</p>
                 </li>
                 <li>
                   <h3 className="font-semibold">Observability Study Group #1 (July 2023)</h3>
-                  <p>Topic: "Implementing Observability in Microservices"</p>
+                  <p>Topic: &quot;Implementing Observability in Microservices&quot;</p>
                 </li>
                 <li>
                   <h3 className="font-semibold">CyberAgent Internal Tech Conference (March 2023)</h3>
-                  <p>Topic: "Implementing Feature Flags in Go"</p>
+                  <p>Topic: &quot;Implementing Feature Flags in Go&quot;</p>
                 </li>
               </ul>
             </section>
