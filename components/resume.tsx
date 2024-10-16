@@ -166,7 +166,7 @@ export function Resume() {
                   <p>Topic: &quot;Building Go AST from Unified Diff Format Differences for Automatic Feature Flag Instrumentation&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">DevOpsDays TOKYO 2024 (June 2023)</h3>
+                  <h3 className="font-semibold">DevOpsDays TOKYO 2024 (August 2023)</h3>
                   <p>Topic: &quot;Unified Management of Errors, Alerts, and Runbooks Using Code Generation to Reduce Operational Costs&quot;</p>
                 </li>
                 <li>
@@ -176,10 +176,6 @@ export function Resume() {
                 <li>
                   <h3 className="font-semibold">Observability Study Group #1 (July 2023)</h3>
                   <p>Topic: &quot;Implementing Observability in Microservices&quot;</p>
-                </li>
-                <li>
-                  <h3 className="font-semibold">CyberAgent Internal Tech Conference (March 2023)</h3>
-                  <p>Topic: &quot;Implementing Feature Flags in Go&quot;</p>
                 </li>
               </ul>
             </section>
