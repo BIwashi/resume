@@ -66,10 +66,10 @@ export function Resume() {
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Work Experience</h2>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold">CyberAgent, Inc. - Backend Engineer</h3>
-                <p className="text-gray-600">April 2022 - Present</p>
+                <p className="text-gray-600">April 2022 - October 2024</p>
                 <p>AI Business Division, Co-creation Retail Media Division</p>
                 <div className="mt-2">
-                  <h4 className="font-semibold">Development of a new app for a major drugstore (April 2023 - Present)</h4>
+                  <h4 className="font-semibold">Development of a new app for a major drugstore (April 2023 - October 2024)</h4>
                   <p>Developing a new app for users with millions of potential users. Involved in API development for the backend, integration with external services, load testing, and building and operating observability infrastructure. Also, actively promoting trunk-based development to improve development speed.</p>
                   <h5 className="font-semibold mt-2">Technology Stack:</h5>
                   <ul className="list-disc list-inside ml-4">
