@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Mail, MapPin, Calendar, Linkedin, Github } from 'lucide-react'
+import { Mail, MapPin, Linkedin, Github } from 'lucide-react'
 
 export function Resume() {
   return (
@@ -21,7 +21,8 @@ export function Resume() {
                 />
               </div>
               <h1 className="text-2xl font-bold">Shota Iwami</h1>
-              <h3 className="text-lg font-semibold mt-2">Software Engineer</h3>
+              <h3 className="text-lg font-semibold mt-2">Lead Robotics Engineer (Autonomous Driving)</h3>
+              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | Ex-SRE</p>
             </div>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -31,10 +32,6 @@ export function Resume() {
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2" />
                 <span>Setagaya, Tokyo, Japan</span>
-              </div>
-              <div className="flex items-center">
-                <Calendar className="w-5 h-5 mr-2" />
-                <span>August 19, 1997</span>
               </div>
               <div className="flex items-center">
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -55,15 +52,55 @@ export function Resume() {
           <div className="md:w-2/3 p-6">
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Summary</h2>
+              <p className="mb-3">
+                I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations.
+              </p>
+              <p className="mb-3">
+                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle inference optimization (C++), vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
+              </p>
               <p>
-                As a Backend Engineer, I have been involved in the development of large-scale applications and the construction of new CRM systems.
-                Primarily using Go, I have experience in designing and implementing microservices architecture, load testing, and building observability infrastructure.
-                I am also proactive in introducing efficient development processes such as trunk-based development and feature flag utilization.
+                Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering and UAV development grounds my approach in dynamics, sensor fusion, and hardware-aware system design.
               </p>
             </section>
 
             <section className="mb-6">
+              <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Core Skills</h2>
+              <ul className="list-disc list-inside ml-4">
+                <li>End-to-End Autonomous Driving (trajectory output from multimodal sensing)</li>
+                <li>On-vehicle inference & systems (C++, real-time constraints)</li>
+                <li>Vehicle control (trajectory tracking, lateral/longitudinal control)</li>
+                <li>Data logging & data-centric AI (event-based logging, dataset curation)</li>
+                <li>Fleet observability & operations (telemetry, dashboards, incident response)</li>
+                <li>Reliability Engineering (SRE) / Observability (OpenTelemetry, Datadog)</li>
+                <li>Multimodal sensing (Camera, LiDAR)</li>
+                <li>C++, Python, Go, CAD</li>
+              </ul>
+            </section>
+
+            <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Work Experience</h2>
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
+                <p className="text-gray-600">April 2025 - Present | Tokyo, Japan</p>
+                <p>Autonomous Driving team (robotaxi)</p>
+                <ul className="list-disc list-inside ml-4 mt-2">
+                  <li>Building learning-based / end-to-end autonomy that outputs trajectories from multimodal sensing (Camera, LiDAR).</li>
+                  <li>Productionizing on-vehicle inference in C++: optimizing latency/determinism under real-time constraints.</li>
+                  <li>Developing vehicle control components (trajectory tracking / control integration for safe and comfortable rides).</li>
+                  <li>Designing data logging strategy for autonomy: event-based triggers, log schemas, and dataset curation workflows.</li>
+                  <li>Driving fleet observability and operational tooling: telemetry pipelines, dashboards/alerts, and incident response.</li>
+                  <li>Collaborating across autonomy, platform, and vehicle integration; bridging software with hardware constraints.</li>
+                </ul>
+                <p className="text-sm text-gray-500 mt-2">Tech: C++, Python, CAD</p>
+              </div>
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold">newmo, Inc. - Platform Engineer (Taxi / Rideshare)</h3>
+                <p className="text-gray-600">November 2024 - March 2025 | Tokyo, Japan</p>
+                <ul className="list-disc list-inside ml-4 mt-2">
+                  <li>Improved CI/CD and developer experience to increase delivery speed without sacrificing stability.</li>
+                  <li>Built/operated observability foundations and production readiness practices (feature flags, dashboards, alerting).</li>
+                </ul>
+              </div>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold">CyberAgent, Inc. - Backend Engineer</h3>
                 <p className="text-gray-600">April 2022 - October 2024</p>
