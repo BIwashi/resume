@@ -73,6 +73,7 @@ export function Resume() {
                 <li>Fleet observability & operations (telemetry, dashboards, incident response)</li>
                 <li>Reliability Engineering (SRE) / Observability (OpenTelemetry, Datadog)</li>
                 <li>Multimodal sensing (Camera, LiDAR)</li>
+                <li>Vehicle odometry & localization (GNSS, IMU, CAN)</li>
                 <li>C++, Python, Go, CAD</li>
               </ul>
             </section>
