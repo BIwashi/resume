@@ -89,6 +89,7 @@ export function Resume() {
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++, Python</li>
                   <li>Sensing: Camera, LiDAR</li>
+                  <li>Tools: CAD</li>
                 </ul>
               </div>
               <div className="mb-6">
