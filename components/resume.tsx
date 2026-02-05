@@ -82,24 +82,24 @@ export function Resume() {
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Work Experience</h2>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
-                <p className="text-gray-600">April 2025 - Present | Tokyo, Japan</p>
+                <p className="text-gray-600">April 2025 - Present</p>
                 <p>Autonomous Driving team (robotaxi)</p>
-                <ul className="list-disc list-inside ml-4 mt-2">
-                  <li>Building learning-based / end-to-end autonomy using multimodal sensing (Camera, LiDAR).</li>
-                  <li>Productionizing on-vehicle inference in C++: optimizing latency/determinism under real-time constraints.</li>
-                  <li>Developing vehicle control components (trajectory tracking / control integration for safe and comfortable rides).</li>
-                  <li>Designing data logging strategy for autonomy: event-based triggers, log schemas, and dataset curation workflows.</li>
-                  <li>Driving fleet observability and operational tooling: telemetry pipelines, dashboards/alerts, and incident response.</li>
-                  <li>Collaborating across autonomy, platform, and vehicle integration; bridging software with hardware constraints.</li>
+                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle inference optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.</p>
+                <h5 className="font-semibold mt-2">Technology Stack:</h5>
+                <ul className="list-disc list-inside ml-4">
+                  <li>Language: C++, Python</li>
+                  <li>Sensing: Camera, LiDAR, GNSS, IMU, CAN</li>
+                  <li>Tools: CAD (sensor mount design)</li>
                 </ul>
-                <p className="text-sm text-gray-500 mt-2">Tech: C++, Python, CAD</p>
               </div>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold">newmo, Inc. - Platform Engineer (Taxi / Rideshare)</h3>
-                <p className="text-gray-600">November 2024 - March 2025 | Tokyo, Japan</p>
-                <ul className="list-disc list-inside ml-4 mt-2">
-                  <li>Improved CI/CD and developer experience to increase delivery speed without sacrificing stability.</li>
-                  <li>Built/operated observability foundations and production readiness practices (feature flags, dashboards, alerting).</li>
+                <p className="text-gray-600">November 2024 - March 2025</p>
+                <p className="mt-2">Improved CI/CD and developer experience to increase delivery speed without sacrificing stability. Built and operated observability foundations and production readiness practices.</p>
+                <h5 className="font-semibold mt-2">Technology Stack:</h5>
+                <ul className="list-disc list-inside ml-4">
+                  <li>Observability: Datadog, OpenTelemetry</li>
+                  <li>IaC / CI/CD: Terraform, GitHub Actions</li>
                 </ul>
               </div>
               <div className="mb-6">
