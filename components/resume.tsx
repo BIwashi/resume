@@ -22,7 +22,7 @@ export function Resume() {
               </div>
               <h1 className="text-2xl font-bold">Shota Iwami</h1>
               <h3 className="text-lg font-semibold mt-2">Lead Robotics Engineer (Autonomous Driving)</h3>
-              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | Ex-SRE</p>
+              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | SRE-informed</p>
             </div>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -56,7 +56,7 @@ export function Resume() {
                 I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations.
               </p>
               <p className="mb-3">
-                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle inference optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
+                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
               </p>
               <p>
                 Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering and UAV development grounds my approach in dynamics, sensor fusion, and hardware-aware system design.
@@ -67,13 +67,13 @@ export function Resume() {
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Core Skills</h2>
               <ul className="list-disc list-inside ml-4">
                 <li>End-to-End Autonomous Driving (multimodal sensing)</li>
-                <li>On-vehicle inference & systems (C++, real-time constraints)</li>
+                <li>On-vehicle systems (real-time constraints)</li>
                 <li>Vehicle control (trajectory tracking, lateral/longitudinal control)</li>
                 <li>Data logging & data-centric AI (event-based logging, dataset curation)</li>
                 <li>Fleet observability & operations (telemetry, dashboards, incident response)</li>
                 <li>Reliability Engineering (SRE) / Observability (OpenTelemetry, Datadog)</li>
                 <li>Multimodal sensing (Camera, LiDAR)</li>
-                <li>Vehicle odometry & localization (GNSS, IMU, CAN)</li>
+                <li>Vehicle odometry & localization</li>
                 <li>C++, Python, Go, CAD</li>
               </ul>
             </section>
@@ -84,12 +84,11 @@ export function Resume() {
                 <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
                 <p className="text-gray-600">April 2025 - Present</p>
                 <p>Autonomous Driving team (robotaxi)</p>
-                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle inference optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.</p>
+                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.</p>
                 <h5 className="font-semibold mt-2">Technology Stack:</h5>
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++, Python</li>
-                  <li>Sensing: Camera, LiDAR, GNSS, IMU, CAN</li>
-                  <li>Tools: CAD (sensor mount design)</li>
+                  <li>Sensing: Camera, LiDAR</li>
                 </ul>
               </div>
               <div className="mb-6">
@@ -183,8 +182,9 @@ export function Resume() {
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Public Speaking</h2>
               <ul className="space-y-4">
-                <li>
-                  <h3 className="font-semibold">Datadog DASH 2025 at NewYork (June 2025)</h3>
+                <li className="border-l-4 border-blue-500 pl-3">
+                  <h3 className="font-semibold">Datadog DASH 2025 — New York, USA (June 2025)</h3>
+                  <p className="text-sm text-gray-500">Datadog&apos;s flagship annual conference / International speaker</p>
                   <p>Topic: &quot;Monorepo Error Management: Automated Runbooks and Team-Targeted Alert Distribution&quot;</p>
                 </li>
                 <li>
