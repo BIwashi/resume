@@ -62,7 +62,7 @@ export function Resume() {
                 I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations.
               </p>
               <p className="mb-3">
-                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
+                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo, joining as the first member and leading the initial build-out from the ground up. My current focus spans learning-based / end-to-end autonomy development, on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
               </p>
               <p>
                 Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering and UAV development grounds my approach in dynamics, sensor fusion, and hardware-aware system design.
@@ -90,7 +90,7 @@ export function Resume() {
                 <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
                 <p className="text-gray-600">April 2025 - Present</p>
                 <p>Autonomous Driving team (robotaxi)</p>
-                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle systems optimization (latency/determinism under real-time constraints), vehicle control (trajectory tracking for safe and comfortable rides), data logging strategy (event-based logging, dataset curation for data-driven development), and fleet observability (telemetry pipelines, dashboards, alerting, incident response). Bridging autonomy, platform, and vehicle integration teams across software and hardware boundaries.</p>
+                <p className="mt-2">First member of the autonomous driving team, leading the initial build-out from the ground up for end-to-end robotaxi autonomy. Working across the full stack: on-vehicle systems optimization (latency/determinism under real-time constraints), vehicle control (trajectory tracking for safe and comfortable rides), data logging strategy (event-based logging, dataset curation for data-driven development), and fleet observability (telemetry pipelines, dashboards, alerting, incident response). Bridging autonomy, platform, and vehicle integration teams across software and hardware boundaries.</p>
                 <h5 className="font-semibold mt-2">Technology Stack:</h5>
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++, Python</li>
