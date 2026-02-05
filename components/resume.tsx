@@ -66,7 +66,7 @@ export function Resume() {
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Core Skills</h2>
               <ul className="list-disc list-inside ml-4">
-                <li>End-to-End Autonomous Driving (trajectory output from multimodal sensing)</li>
+                <li>End-to-End Autonomous Driving (multimodal sensing)</li>
                 <li>On-vehicle inference & systems (C++, real-time constraints)</li>
                 <li>Vehicle control (trajectory tracking, lateral/longitudinal control)</li>
                 <li>Data logging & data-centric AI (event-based logging, dataset curation)</li>
@@ -84,7 +84,7 @@ export function Resume() {
                 <p className="text-gray-600">April 2025 - Present | Tokyo, Japan</p>
                 <p>Autonomous Driving team (robotaxi)</p>
                 <ul className="list-disc list-inside ml-4 mt-2">
-                  <li>Building learning-based / end-to-end autonomy that outputs trajectories from multimodal sensing (Camera, LiDAR).</li>
+                  <li>Building learning-based / end-to-end autonomy using multimodal sensing (Camera, LiDAR).</li>
                   <li>Productionizing on-vehicle inference in C++: optimizing latency/determinism under real-time constraints.</li>
                   <li>Developing vehicle control components (trajectory tracking / control integration for safe and comfortable rides).</li>
                   <li>Designing data logging strategy for autonomy: event-based triggers, log schemas, and dataset curation workflows.</li>
