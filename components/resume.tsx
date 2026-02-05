@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Mail, MapPin, Calendar, Linkedin, Github } from 'lucide-react'
+import { Mail, MapPin, Linkedin, Github, Presentation } from 'lucide-react'
 
 export function Resume() {
   return (
@@ -21,7 +21,8 @@ export function Resume() {
                 />
               </div>
               <h1 className="text-2xl font-bold">Shota Iwami</h1>
-              <h3 className="text-lg font-semibold mt-2">Software Engineer</h3>
+              <h3 className="text-lg font-semibold mt-2">Lead Robotics Engineer (Autonomous Driving)</h3>
+              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | SRE / Reliability Engineering</p>
             </div>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -30,11 +31,7 @@ export function Resume() {
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2" />
-                <span>Setagaya, Tokyo, Japan</span>
-              </div>
-              <div className="flex items-center">
-                <Calendar className="w-5 h-5 mr-2" />
-                <span>August 19, 1997</span>
+                <span>Tokyo, Japan</span>
               </div>
               <div className="flex items-center">
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -48,6 +45,12 @@ export function Resume() {
                   github.com/BIwashi
                 </a>
               </div>
+              <div className="flex items-center">
+                <Presentation className="w-5 h-5 mr-2" />
+                <a href="https://speakerdeck.com/biwashi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+                  speakerdeck.com/biwashi
+                </a>
+              </div>
             </div>
           </div>
 
@@ -55,15 +58,56 @@ export function Resume() {
           <div className="md:w-2/3 p-6">
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Summary</h2>
+              <p className="mb-3">
+                I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations.
+              </p>
+              <p className="mb-3">
+                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
+              </p>
               <p>
-                As a Backend Engineer, I have been involved in the development of large-scale applications and the construction of new CRM systems.
-                Primarily using Go, I have experience in designing and implementing microservices architecture, load testing, and building observability infrastructure.
-                I am also proactive in introducing efficient development processes such as trunk-based development and feature flag utilization.
+                Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering and UAV development grounds my approach in dynamics, sensor fusion, and hardware-aware system design.
               </p>
             </section>
 
             <section className="mb-6">
+              <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Core Skills</h2>
+              <ul className="list-disc list-inside ml-4">
+                <li>End-to-End Autonomous Driving (multimodal sensing)</li>
+                <li>On-vehicle systems (real-time constraints)</li>
+                <li>Vehicle control (trajectory tracking, lateral/longitudinal control)</li>
+                <li>Data logging & data-centric AI (event-based logging, dataset curation)</li>
+                <li>Fleet observability & operations (telemetry, dashboards, incident response)</li>
+                <li>Reliability Engineering (SRE) / Observability (OpenTelemetry, Datadog)</li>
+                <li>Multimodal sensing (Camera, LiDAR)</li>
+                <li>Vehicle odometry & localization</li>
+                <li>C++, Python, Go, CAD</li>
+              </ul>
+            </section>
+
+            <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Work Experience</h2>
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
+                <p className="text-gray-600">April 2025 - Present</p>
+                <p>Autonomous Driving team (robotaxi)</p>
+                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle systems optimization (latency/determinism under real-time constraints), vehicle control (trajectory tracking for safe and comfortable rides), data logging strategy (event-based logging, dataset curation for data-driven development), and fleet observability (telemetry pipelines, dashboards, alerting, incident response). Bridging autonomy, platform, and vehicle integration teams across software and hardware boundaries.</p>
+                <h5 className="font-semibold mt-2">Technology Stack:</h5>
+                <ul className="list-disc list-inside ml-4">
+                  <li>Language: C++, Python</li>
+                  <li>Sensing: Camera, LiDAR, vehicle sensors</li>
+                  <li>Tools: CAD (mechanical design)</li>
+                </ul>
+              </div>
+              <div className="mb-6">
+                <h3 className="text-xl font-semibold">newmo, Inc. - Platform Engineer (Taxi / Rideshare)</h3>
+                <p className="text-gray-600">November 2024 - March 2025</p>
+                <p className="mt-2">Improved CI/CD and developer experience to increase delivery speed without sacrificing stability. Built and operated observability foundations and production readiness practices.</p>
+                <h5 className="font-semibold mt-2">Technology Stack:</h5>
+                <ul className="list-disc list-inside ml-4">
+                  <li>Observability: Datadog, OpenTelemetry</li>
+                  <li>IaC / CI/CD: Terraform, GitHub Actions</li>
+                </ul>
+              </div>
               <div className="mb-6">
                 <h3 className="text-xl font-semibold">CyberAgent, Inc. - Backend Engineer</h3>
                 <p className="text-gray-600">April 2022 - October 2024</p>
@@ -145,6 +189,11 @@ export function Resume() {
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Public Speaking</h2>
               <ul className="space-y-4">
+                <li className="relative before:content-[''] before:absolute before:-left-2 before:top-0 before:bottom-0 before:w-1 before:bg-gray-300">
+                  <h3 className="font-semibold">Datadog DASH 2025 — New York, USA (June 2025)</h3>
+                  <p className="text-sm text-gray-500">Speaker (Datadog&apos;s flagship annual conference)</p>
+                  <p>Topic: &quot;Monorepo Error Management: Automated Runbooks and Team-Targeted Alert Distribution&quot;</p>
+                </li>
                 <li>
                   <h3 className="font-semibold">Top 4 Load Testing Tools! User Insights into Effective Performance Testing Practices (September 2024)</h3>
                   <p>Topic: &quot;Building a Scalable and Reproducible Load Testing Platform with k6&quot;</p>
@@ -158,15 +207,15 @@ export function Resume() {
                   <p>Topic: &quot;Feature Flags and OpenTelemetry&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">CloudNative Days SUMMER 2024 (June 2023)</h3>
+                  <h3 className="font-semibold">CloudNative Days SUMMER 2024 (June 2024)</h3>
                   <p>Topic: &quot;Declarative Aggregation Management of Feature Flags Using OpenFeature and Code Generation&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">Go Conference 2024 (June 2023)</h3>
+                  <h3 className="font-semibold">Go Conference 2024 (June 2024)</h3>
                   <p>Topic: &quot;Building Go AST from Unified Diff Format Differences for Automatic Feature Flag Instrumentation&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">DevOpsDays TOKYO 2024 (August 2023)</h3>
+                  <h3 className="font-semibold">DevOpsDays TOKYO 2024 (August 2024)</h3>
                   <p>Topic: &quot;Unified Management of Errors, Alerts, and Runbooks Using Code Generation to Reduce Operational Costs&quot;</p>
                 </li>
                 <li>
