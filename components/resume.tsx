@@ -56,7 +56,7 @@ export function Resume() {
                 I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations.
               </p>
               <p className="mb-3">
-                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle inference optimization (C++), vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
+                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo. My current focus spans learning-based / end-to-end autonomy development, on-vehicle inference optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
               </p>
               <p>
                 Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering and UAV development grounds my approach in dynamics, sensor fusion, and hardware-aware system design.
@@ -183,6 +183,10 @@ export function Resume() {
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Public Speaking</h2>
               <ul className="space-y-4">
                 <li>
+                  <h3 className="font-semibold">Datadog DASH 2025 at NewYork (June 2025)</h3>
+                  <p>Topic: &quot;Monorepo Error Management: Automated Runbooks and Team-Targeted Alert Distribution&quot;</p>
+                </li>
+                <li>
                   <h3 className="font-semibold">Top 4 Load Testing Tools! User Insights into Effective Performance Testing Practices (September 2024)</h3>
                   <p>Topic: &quot;Building a Scalable and Reproducible Load Testing Platform with k6&quot;</p>
                 </li>
@@ -195,15 +199,15 @@ export function Resume() {
                   <p>Topic: &quot;Feature Flags and OpenTelemetry&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">CloudNative Days SUMMER 2024 (June 2023)</h3>
+                  <h3 className="font-semibold">CloudNative Days SUMMER 2024 (June 2024)</h3>
                   <p>Topic: &quot;Declarative Aggregation Management of Feature Flags Using OpenFeature and Code Generation&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">Go Conference 2024 (June 2023)</h3>
+                  <h3 className="font-semibold">Go Conference 2024 (June 2024)</h3>
                   <p>Topic: &quot;Building Go AST from Unified Diff Format Differences for Automatic Feature Flag Instrumentation&quot;</p>
                 </li>
                 <li>
-                  <h3 className="font-semibold">DevOpsDays TOKYO 2024 (August 2023)</h3>
+                  <h3 className="font-semibold">DevOpsDays TOKYO 2024 (August 2024)</h3>
                   <p>Topic: &quot;Unified Management of Errors, Alerts, and Runbooks Using Code Generation to Reduce Operational Costs&quot;</p>
                 </li>
                 <li>
