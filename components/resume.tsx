@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import { Mail, MapPin, Linkedin, Github } from 'lucide-react'
+import { Mail, MapPin, Linkedin, Github, Presentation } from 'lucide-react'
 
 export function Resume() {
   return (
@@ -22,7 +22,7 @@ export function Resume() {
               </div>
               <h1 className="text-2xl font-bold">Shota Iwami</h1>
               <h3 className="text-lg font-semibold mt-2">Lead Robotics Engineer (Autonomous Driving)</h3>
-              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | SRE-informed</p>
+              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | SRE / Reliability Engineering</p>
             </div>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -31,7 +31,7 @@ export function Resume() {
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2" />
-                <span>Setagaya, Tokyo, Japan</span>
+                <span>Tokyo, Japan</span>
               </div>
               <div className="flex items-center">
                 <Linkedin className="w-5 h-5 mr-2" />
@@ -43,6 +43,12 @@ export function Resume() {
                 <Github className="w-5 h-5 mr-2" />
                 <a href="https://github.com/BIwashi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
                   github.com/BIwashi
+                </a>
+              </div>
+              <div className="flex items-center">
+                <Presentation className="w-5 h-5 mr-2" />
+                <a href="https://speakerdeck.com/biwashi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+                  speakerdeck.com/biwashi
                 </a>
               </div>
             </div>
@@ -84,12 +90,12 @@ export function Resume() {
                 <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
                 <p className="text-gray-600">April 2025 - Present</p>
                 <p>Autonomous Driving team (robotaxi)</p>
-                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.</p>
+                <p className="mt-2">Building learning-based / end-to-end autonomy for robotaxi operations. Working across the full stack: on-vehicle systems optimization (latency/determinism under real-time constraints), vehicle control (trajectory tracking for safe and comfortable rides), data logging strategy (event-based logging, dataset curation for data-driven development), and fleet observability (telemetry pipelines, dashboards, alerting, incident response). Bridging autonomy, platform, and vehicle integration teams across software and hardware boundaries.</p>
                 <h5 className="font-semibold mt-2">Technology Stack:</h5>
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++, Python</li>
-                  <li>Sensing: Camera, LiDAR</li>
-                  <li>Tools: CAD</li>
+                  <li>Sensing: Camera, LiDAR, vehicle sensors</li>
+                  <li>Tools: CAD (mechanical design)</li>
                 </ul>
               </div>
               <div className="mb-6">
@@ -183,9 +189,9 @@ export function Resume() {
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Public Speaking</h2>
               <ul className="space-y-4">
-                <li className="border-l-4 border-blue-500 pl-3">
+                <li className="relative before:content-[''] before:absolute before:-left-2 before:top-0 before:bottom-0 before:w-1 before:bg-gray-300">
                   <h3 className="font-semibold">Datadog DASH 2025 — New York, USA (June 2025)</h3>
-                  <p className="text-sm text-gray-500">Datadog&apos;s flagship annual conference / International speaker</p>
+                  <p className="text-sm text-gray-500">Speaker (Datadog&apos;s flagship annual conference)</p>
                   <p>Topic: &quot;Monorepo Error Management: Automated Runbooks and Team-Targeted Alert Distribution&quot;</p>
                 </li>
                 <li>
