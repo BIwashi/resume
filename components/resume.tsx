@@ -3,6 +3,8 @@
 import Image from 'next/image'
 import { Mail, MapPin, Linkedin, Github, Presentation } from 'lucide-react'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 export function Resume() {
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -13,7 +15,7 @@ export function Resume() {
             <div className="flex flex-col items-center mb-6">
               <div className="w-48 h-48 relative overflow-hidden rounded-full mb-4">
                 <Image
-                  src="/images/shota_iwami.jpeg"
+                  src={`${basePath}/images/shota_iwami.jpeg`}
                   alt="Shota Iwami"
                   width={200}
                   height={200}

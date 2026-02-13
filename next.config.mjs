@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.GITHUB_PAGES === "true" ? "/resume" : "";
 const nextConfig = {
   output: "export",
-  basePath: process.env.GITHUB_PAGES === "true" ? "/resume" : "",
+  basePath,
+  assetPrefix: basePath,
   images: {
     unoptimized: true,
   },
