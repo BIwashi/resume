@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/resume",
+  basePath: process.env.GITHUB_PAGES === "true" ? "/resume" : "",
   images: {
     unoptimized: true,
   },
