@@ -98,7 +98,7 @@ export function Resume() {
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++, Python</li>
                   <li>AD: VLM/VLA-based end-to-end driving, direct action output & path-tracking</li>
-                  <li>Hardware: Automotive-grade compute platforms, CAN, I2C</li>
+                  <li>Hardware: Automotive-grade compute platforms</li>
                   <li>Control: MPC, MPPI, trajectory tracking, low-level control (PID)</li>
                   <li>Simulation: CARLA, MetaDrive, Alpasim</li>
                   <li>Sensing: Camera, LiDAR, vehicle sensors</li>
