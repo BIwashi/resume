@@ -24,7 +24,7 @@ export function Resume() {
               </div>
               <h1 className="text-2xl font-bold">Shota Iwami</h1>
               <h3 className="text-lg font-semibold mt-2">Lead Robotics Engineer (Autonomous Driving)</h3>
-              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy | Vehicle Control | Fleet Observability | SRE / Reliability Engineering</p>
+              <p className="text-sm text-gray-300 mt-1">End-to-End Autonomy (VLM/VLA) | Vehicle Control | On-Vehicle Systems | Fleet Observability | SRE</p>
             </div>
             <div className="space-y-4">
               <div className="flex items-center">
@@ -61,28 +61,29 @@ export function Resume() {
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Summary</h2>
               <p className="mb-3">
-                I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations.
+                I build reliability-first, end-to-end autonomous driving systems—turning raw sensor data into safe, deployable robotaxi operations on production vehicle hardware.
               </p>
               <p className="mb-3">
-                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo, joining as the first member and leading the initial build-out from the ground up. My current focus spans learning-based / end-to-end autonomy development, on-vehicle systems optimization, vehicle control, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
+                I&apos;m a Lead Robotics Engineer on the Autonomous Driving team at newmo, joining as the first member and leading the initial build-out from the ground up. My current focus spans vision-language model (VLM/VLA) based end-to-end autonomy development—both direct action output and path-tracking approaches—vehicle control (MPC/MPPI), on-vehicle systems optimization on automotive-grade compute platforms, data logging strategy, and fleet observability—bringing SRE-native practices to safety-critical robotics.
               </p>
               <p>
-                Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering and UAV development grounds my approach in dynamics, sensor fusion, and hardware-aware system design.
+                Previously, I worked in backend/platform engineering (Go, cloud infra, CI/CD, observability). My background in aerospace engineering (M.Eng) and UAV flight controller development grounds my approach in control theory, dynamics, sensor fusion, and hardware-aware system design.
               </p>
             </section>
 
             <section className="mb-6">
               <h2 className="text-2xl font-bold mb-4 border-b-2 border-gray-300">Core Skills</h2>
               <ul className="list-disc list-inside ml-4">
-                <li>End-to-End Autonomous Driving (multimodal sensing)</li>
-                <li>On-vehicle systems (real-time constraints)</li>
-                <li>Vehicle control (trajectory tracking, lateral/longitudinal control)</li>
+                <li>End-to-End Autonomous Driving — VLM/VLA-based (direct action output & path-tracking)</li>
+                <li>Vehicle control — MPC, MPPI, trajectory tracking, low-level control (PID steering/throttle)</li>
+                <li>On-vehicle systems on automotive-grade compute platforms (real-time constraints)</li>
+                <li>Vehicle integration — CAN, I2C, vehicle sensor interfaces</li>
+                <li>Simulation & evaluation (CARLA, MetaDrive, Alpasim)</li>
+                <li>Multimodal sensing (Camera, LiDAR) & vehicle odometry / localization</li>
                 <li>Data logging & data-centric AI (event-based logging, dataset curation)</li>
                 <li>Fleet observability & operations (telemetry, dashboards, incident response)</li>
                 <li>Reliability Engineering (SRE) / Observability (OpenTelemetry, Datadog)</li>
-                <li>Multimodal sensing (Camera, LiDAR)</li>
-                <li>Vehicle odometry & localization</li>
-                <li>C++, Python, Go, CAD</li>
+                <li>C++, Python, Go</li>
               </ul>
             </section>
 
@@ -92,10 +93,14 @@ export function Resume() {
                 <h3 className="text-xl font-semibold">newmo, Inc. - Lead Robotics Engineer / Autonomous Driving Software Engineer</h3>
                 <p className="text-gray-600">April 2025 - Present</p>
                 <p>Autonomous Driving team (robotaxi)</p>
-                <p className="mt-2">First member of the autonomous driving team, leading the initial build-out from the ground up for end-to-end robotaxi autonomy. Working across the full stack: on-vehicle systems optimization (latency/determinism under real-time constraints), vehicle control (trajectory tracking for safe and comfortable rides), data logging strategy (event-based logging, dataset curation for data-driven development), and fleet observability (telemetry pipelines, dashboards, alerting, incident response). Bridging autonomy, platform, and vehicle integration teams across software and hardware boundaries.</p>
+                <p className="mt-2">First member of the autonomous driving team, leading the initial build-out from the ground up for end-to-end robotaxi autonomy. Developing VLM/VLA-based autonomous driving—both direct action output (end-to-end control) and path-tracking approaches with MPC/MPPI. Also implementing low-level vehicle control (PID for steering and throttle actuation). Optimizing on-vehicle systems on automotive-grade compute platforms (latency/determinism under real-time constraints), integrating vehicle interfaces (CAN/I2C), running simulation-based evaluation (CARLA, MetaDrive, Alpasim), designing data logging strategy (event-based logging, dataset curation for data-driven development), and building fleet observability (telemetry pipelines, dashboards, alerting, incident response). Bridging autonomy, platform, and vehicle integration teams across software and hardware boundaries.</p>
                 <h5 className="font-semibold mt-2">Technology Stack:</h5>
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++, Python</li>
+                  <li>AD: VLM/VLA-based end-to-end driving, direct action output & path-tracking</li>
+                  <li>Hardware: Automotive-grade compute platforms, CAN, I2C</li>
+                  <li>Control: MPC, MPPI, trajectory tracking, low-level control (PID)</li>
+                  <li>Simulation: CARLA, MetaDrive, Alpasim</li>
                   <li>Sensing: Camera, LiDAR, vehicle sensors</li>
                   <li>Tools: CAD (mechanical design)</li>
                 </ul>
@@ -162,12 +167,12 @@ export function Resume() {
               <div className="mb-6">
                 <h3 className="text-xl font-semibold">Space Entertainment Laboratory, Inc. - Software and Hardware Engineer (Internship)</h3>
                 <p className="text-gray-600">January 2019 - March 2022</p>
-                <p className="mt-2">Development of a flying boat-type drone with wings. Involved in software development of the flight controller, manufacturing of the aircraft, and design using CAD.</p>
+                <p className="mt-2">Development of a flying boat-type drone with wings. Developed and tuned the flight controller software (attitude control, trajectory following), manufactured the aircraft, and designed airframe components using CAD.</p>
                 <h5 className="font-semibold mt-2">Technology Stack:</h5>
                 <ul className="list-disc list-inside ml-4">
                   <li>Language: C++/Python</li>
-                  <li>Software: PX4 Auto Pilot / Arduino</li>
-                  <li>Hardware: Pixhawk</li>
+                  <li>Software: PX4 Autopilot (flight controller development) / Arduino</li>
+                  <li>Hardware: Pixhawk, IMU, GPS, barometer</li>
                   <li>Tools: SOLIDWORKS</li>
                 </ul>
               </div>
